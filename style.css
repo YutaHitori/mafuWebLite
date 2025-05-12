@@ -8,7 +8,7 @@ body {
 
 body:has(.maindisplay) {
     overflow: hidden;
-    animation: scrollable 0s forwards 14s;
+    /*animation: scrollable 0s forwards 14s;*/
 }
 
 body:has(.mvpick) {
