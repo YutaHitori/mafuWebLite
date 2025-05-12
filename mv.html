@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Video - MafuWebLite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="icon animatedLink"><img src="assets/img_logo.png"></a>
+        <nav>
+            <a href="profile1.html">Profile</a>
+            <a href="mv.html">Music Video</a>
+            <a href="album.html">Album</a>
+            <a href="dvd.html">DVD</a>
+        </nav>
+    </header>
+    <section>
+        <div class="mvpick">
+            <label for="mv1"><img src="assets/mv01.png" class="mv1"></label>
+            <label for="mv2"><img src="assets/mv02.png" class="mv2"></label>
+            <label for="mv3"><img src="assets/mv03.png" class="mv3"></label>
+            <label for="mv4"><img src="assets/mv04.png" class="mv4"></label>
+            <label for="mv5"><img src="assets/mv05.png" class="mv5"></label>
+            <label for="mv6"><img src="assets/mv06.png" class="mv6"></label>
+        </div>
+        <div class="mediaContainer">
+            <iframe src="https://www.youtube.com/embed/vHm0RWaf0FE?si=wT_tfATGvzoMQ6t2" name="mediaplayer" class="mvMedia"></iframe>
+            <div class="mediaDesc media1">
+                <h1>栞</h1>
+                <p>『今日はあの日の続きじゃなかった』</p>
+            </div>
+            <div class="mediaDesc media2">
+                <h1>暗い微睡みの呼ぶほうへ</h1>
+                <p>どれだけ何処へ行こうとも<br>其処は願った場所と違った</p>
+            </div>
+            <div class="mediaDesc media3">
+                <h1>神様の遺伝子</h1>
+                <p>The die is cast.</p>
+            </div>
+            <div class="mediaDesc media4">
+                <h1>おとといきやがれ</h1>
+                <p>誰彼構わずやっちまえ</p>
+            </div>
+            <div class="mediaDesc media5">
+                <h1>空腹</h1>
+                <p>満たされない</p>
+            </div>
+            <div class="mediaDesc media6">
+                <h1>片恋</h1>
+                <p>ありがと　さよなら</p>
+            </div>
+            <form class="mvinput">
+                <input type="radio" name="mvinput" id="mv1" onchange="window.open('https://www.youtube.com/embed/vHm0RWaf0FE?si=wT_tfATGvzoMQ6t2','mediaplayer')" checked>  
+                <label class="mvnav" for="mv1"></label>
+                <input type="radio" name="mvinput" id="mv2" onchange="window.open('https://www.youtube.com/embed/5pUF2DddgsI?si=aBPoerBtP15t8Vjr','mediaplayer')">
+                <label class="mvnav" for="mv2"></label>
+                <input type="radio" name="mvinput" id="mv3" onchange="window.open('https://www.youtube.com/embed/6pHWoFXMs6s?si=FkLU6MY3mLcDoqBT','mediaplayer')">
+                <label class="mvnav" for="mv3"></label>
+                <input type="radio" name="mvinput" id="mv4" onchange="window.open('https://www.youtube.com/embed/15Ehfgn6aSo?si=bBH25TUnQGyfEF2t','mediaplayer')">
+                <label class="mvnav" for="mv4"></label>
+                <input type="radio" name="mvinput" id="mv5" onchange="window.open('https://www.youtube.com/embed/ZfBHMucSxCA?si=sq4Pf9QqZD0HCKWZ','mediaplayer')">
+                <label class="mvnav" for="mv5"></label>
+                <input type="radio" name="mvinput" id="mv6" onchange="window.open('https://www.youtube.com/embed/_iEydWNpbQ4?si=BnqQKaS-eh8lyJo9','mediaplayer')">
+                <label class="mvnav" for="mv6"></label>
+            </form>
+        </div> 
+    </section>
+    <footer style="position: fixed;"><p>&copy; 2024</p></footer>
+</body>
+</html>
